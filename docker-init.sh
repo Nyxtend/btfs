@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 
 # Check if the conf exists already
 if [ ! -f /root/.btfs/config ]; then
