@@ -32,7 +32,7 @@ ADD docker-init.sh .
 RUN chmod +x docker-init.sh
 
 # Expose the btfs folders as volumes, these should be persisted
-VOLUME [ "/root/.btfs", "/root/btfs" ]
+VOLUME [ "/root/.btfs" ]
 
 # Expose the local API port (don't port forward this!)
 EXPOSE 5001
